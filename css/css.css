@@ -7,6 +7,8 @@
     --basic-specional:#333333;
     --basic-fon:#81B3D2;
     --basic-fonbottom:#EEEEEE;
+    --basic-btnind:#766357;
+    --basic-foot:#81B3D2;
 }
 .page-body {
     margin:0 auto;
@@ -399,7 +401,7 @@
     word-wrap: break-word;
 }
 .feedback{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .interest{
@@ -425,4 +427,94 @@
     margin-right: 375px;
     text-align: center;
     word-wrap: break-word;
+}
+.btnind {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-white);
+    border: none;
+    background-color: var(--basic-btnind);
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    height: 86px;
+    width: 568px;
+}
+.contactmap {
+    position: absolute;
+}
+.foot_main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 467px;
+    width: 1200px;
+    background-color: var(--basic-white);
+    opacity: 0%;
+    height: 130px;
+}
+.foot_main:hover {
+    opacity: 90%;
+}
+.foot_contacts {
+    width: 252px;
+    padding-left: 130px;
+}
+.foot_teg {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--basic-black);
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+.foot_phone {
+    text-decoration: none;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--basic-black);
+}
+.foot_socialblock {
+    padding-top: 25px;
+    padding-left: 0;
+}
+.foot_sociallist {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    padding-left: 0;
+}
+.foot_socialitem {
+    display: flex;
+    justify-content:center;
+    padding-top: 15px;
+    width: 46px;
+    height: 32px;
+    background-color: var(--basic-foot);
+}
+.foot_logo {
+    padding-top: 40px;
+    display: flex;
+    width: 380px;
+}
+.foot_logotext {
+    padding-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--basic-black);
+    padding-left: 45px;
+}
+.foot_logobottom {
+    margin-left: 10px;
 }
